@@ -1,0 +1,35 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color: lavender;
+}
+
+#header{
+  color: purple;
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+h2{
+  color: purple;
+  font-size: xx-large;
+  padding-left: 30px;
+}
+
+p{
+  font-size: medium;
+  padding-left: 50px;
+  font-family:'Source Sans Pro', sans-serif;
+
+}
+
+a{
+  color: purple;
+  padding-left: 50px;
+}
+
+img{
+  padding-left: 50px;
+}
