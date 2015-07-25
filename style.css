@@ -2,39 +2,114 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300);
 
 body{
-  font-family: 'Open Sans', sans-serif;
-  background-color: lavender;
-}
-
-#header{
-  color: purple;
-  padding-left: 50px;
-  padding-top: 10px;
-}
-
-h1{
-  color: purple;
-  font-size: xx-large;
-  padding-left: 50px;
-}
-
-p{
-  background: white;
-  font-size: medium;
-  margin: 20px 50px;
-  padding: 50px;
-  width: 500px;
-  float: right;
-  border: 2px dotted purple;
   font-family:'Source Sans Pro', sans-serif;
-
+  background-color: slategrey;
 }
 
-a{
-  color: purple;
-  padding-left: 50px;
+#content{
+  display: none;
 }
 
-img{
-  padding-left: 50px;
+
+.circle{
+  width: 330px;
+  height:330px;
+  border-radius:175px;
+  -moz-border-radius:175px;
+  -webkit-border-radius:175px;
+  background-color: mintcream;
+  margin: 40px 30px 40px 90px;
+  float: left;
+  box-shadow: 7px 7px 40px #606060;
+  border: 3px solid aliceblue;
+}
+
+#music{
+  float: right;
+}
+
+#name{
+    background: #mintcream;
+    font-size: 1.5em;
+    color: mint;
+    text-align: center;
+    font-family:'Source Sans Pro', sans-serif;
+}
+
+#android{
+  background: url(https://lh3.googleusercontent.com/-AQT4ulsejlI/VWZ7D_Wc7ZI/AAAAAAAAAZA/OP7jVNn4bso/s506/eva.gif) no-repeat;
+  background-size: cover;
+}
+
+#info{
+  background: #mintcream;
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+  font-family:'Source Sans Pro', sans-serif;
+}
+
+.vcenter{
+  position: relative;
+  top: 35%;
+  transform: translateY(-50%);
+}
+
+.info{
+  width: 330px;
+  height:330px;
+  border-radius:175px;
+  -moz-border-radius:175px;
+  -webkit-border-radius:175px;
+  background-color: mintcream;
+  margin: 50px 30px 50px 90px;
+  float: left;
+  box-shadow: 7px 7px 40px #606060;
+  border: 3px solid aliceblue;
+}
+
+a.fill-div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius:175px;
+    -moz-border-radius:175px;
+    -webkit-border-radius:175px;
+    text-decoration: none;
+}
+
+#food{
+  background: url(https://38.media.tumblr.com/738136f1137fc6a952e193876beb4e58/tumblr_nkedfjkEfa1u3bn17o1_540.gif) no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+#fencing{
+  background: url(https://31.media.tumblr.com/2f92a03c55d53f01f31da4dbd97c592e/tumblr_n9wiijJD5G1r5mbvpo1_500.gif) no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+#art{
+  background: url(http://media.giphy.com/media/gvuHDchR5CBYA/giphy.gif) no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+#google{
+  background: url(https://d13yacurqjgara.cloudfront.net/users/409459/screenshots/1899094/800x600.gif) no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+#github{
+  background: url(https://octodex.github.com/images/carlostocat.gif) no-repeat;
+  background-size: cover;
+  display: none;
+}
+
+#linkedin{
+  background: url(https://d13yacurqjgara.cloudfront.net/users/147003/screenshots/1541997/linkedin_400_x_300_comp.gif) no-repeat;
+  background-size: cover;
+  display: none;
 }
