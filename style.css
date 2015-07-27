@@ -6,6 +6,7 @@ body{
   background-color: slategrey;
 }
 
+/*for initial fadeIn*/
 #content{
   display: none;
 }
@@ -14,14 +15,14 @@ body{
 .circle{
   width: 330px;
   height:330px;
-  border-radius:175px;
-  -moz-border-radius:175px;
-  -webkit-border-radius:175px;
+  border-radius:165px;
+  -moz-border-radius:165px;
+  -webkit-border-radius:165px;
   background-color: mintcream;
   margin: 40px 30px 40px 90px;
   float: left;
   box-shadow: 7px 7px 40px #606060;
-  border: 3px solid aliceblue;
+  border: 4px solid aliceblue;
 }
 
 #music{
@@ -31,7 +32,7 @@ body{
 #name{
     background: #mintcream;
     font-size: 1.5em;
-    color: mint;
+    color: black;
     text-align: center;
     font-family:'Source Sans Pro', sans-serif;
 }
@@ -43,16 +44,17 @@ body{
 
 #info{
   background: #mintcream;
-  font-size: 1.5em;
+  font-size: 1.1em;
   color: black;
   text-align: center;
   font-family:'Source Sans Pro', sans-serif;
 }
 
+/*vertical centering for div > headers*/
 .vcenter{
   position: relative;
-  top: 35%;
-  transform: translateY(-50%);
+  top: 45%;
+  transform: translateY(-57%);
 }
 
 .info{
@@ -68,6 +70,7 @@ body{
   border: 3px solid aliceblue;
 }
 
+/*Makes the entire circle clickable*/
 a.fill-div {
     display: block;
     height: 100%;
@@ -77,6 +80,31 @@ a.fill-div {
     -webkit-border-radius:175px;
     text-decoration: none;
 }
+
+.life{
+  width: 330px;
+  height:330px;
+  border-radius:120px;
+  -moz-border-radius:120px;
+  -webkit-border-radius:120px;
+  background-color: mintcream;
+  margin: 40px 30px 40px 90px;
+  float: left;
+  box-shadow: 7px 7px 40px #606060;
+  border: 4px solid aliceblue;
+  font-size: 1.4em;
+  text-align: center;
+  background: mintcream;
+  display: none;
+}
+
+.lifecenter{
+  position: relative;
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+/* background images */
 
 #food{
   background: url(https://38.media.tumblr.com/738136f1137fc6a952e193876beb4e58/tumblr_nkedfjkEfa1u3bn17o1_540.gif) no-repeat;
@@ -99,6 +127,7 @@ a.fill-div {
 #google{
   background: url(https://d13yacurqjgara.cloudfront.net/users/409459/screenshots/1899094/800x600.gif) no-repeat;
   background-size: cover;
+  background-position: center;
   display: none;
 }
 
@@ -111,5 +140,51 @@ a.fill-div {
 #linkedin{
   background: url(https://d13yacurqjgara.cloudfront.net/users/147003/screenshots/1541997/linkedin_400_x_300_comp.gif) no-repeat;
   background-size: cover;
+  background-position: center;
   display: none;
+}
+
+/* life ids */
+
+#graduation:hover{
+  background: url(https://scontent-lga1-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/10411751_10205070996113753_8455543250319192438_n.jpg?oh=371cb7a427d35e1cf02f3a7b03407e24&oe=5656A3D4);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#camping:hover{
+  background: url(https://scontent-lga1-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/11257843_10203106005010775_6061408662483488805_n.jpg?oh=760d75e8fcd20f4431a550de8ddcf959&oe=560F6B33);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#prom:hover{
+  background: url(https://scontent-lga1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10460254_676848105784498_7668521354587313526_n.jpg?oh=45cf697efb224665d478ad018cd9b3bc&oe=56577409);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#fon:hover{
+  background: url(https://scontent-lga1-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/10981356_1079272932099415_1427453903934249506_n.jpg?oh=67efe3a56ae51e42719a3ecb45ee1940&oe=56102415);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#wcarnival:hover{
+  background: url(https://scontent-lga1-1.xx.fbcdn.net/hphotos-xfp1/t31.0-8/10896421_4955157054564_962294032084241572_o.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#halloween:hover{
+  background: url(https://scontent-lga1-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/10406984_918391791524045_1506305705658854175_n.jpg?oh=6b4c72fc747ad543d55e8ec1fbae5edd&oe=564095ED);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.life h2{
+  opacity: 1;
 }
