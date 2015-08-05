@@ -104,6 +104,10 @@ a.fill-div {
   transform: translateY(-50%);
 }
 
+.separate{
+  clear: both;
+}
+
 /* background images */
 
 #food{
